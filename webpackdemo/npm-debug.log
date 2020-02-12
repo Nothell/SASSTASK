@@ -1,0 +1,142 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'i',
+1 verbose cli   '--save-dev',
+1 verbose cli   'webpack',
+1 verbose cli   'webpack-cli.' ]
+2 info using npm@3.5.2
+3 info using node@v8.10.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData webpack
+8 silly fetchPackageMetaData webpack-cli.
+9 silly fetchNamedPackageData webpack
+10 silly mapToRegistry name webpack
+11 silly mapToRegistry using default registry
+12 silly mapToRegistry registry https://registry.npmjs.org/
+13 silly mapToRegistry uri https://registry.npmjs.org/webpack
+14 silly fetchNamedPackageData webpack-cli.
+15 silly mapToRegistry name webpack-cli.
+16 silly mapToRegistry using default registry
+17 silly mapToRegistry registry https://registry.npmjs.org/
+18 silly mapToRegistry uri https://registry.npmjs.org/webpack-cli.
+19 verbose request uri https://registry.npmjs.org/webpack-cli.
+20 verbose request no auth needed
+21 info attempt registry request try #1 at 12:17:25 PM
+22 verbose request id 95b6959cb523355d
+23 http request GET https://registry.npmjs.org/webpack-cli.
+24 verbose request uri https://registry.npmjs.org/webpack
+25 verbose request no auth needed
+26 info attempt registry request try #1 at 12:17:25 PM
+27 verbose etag W/"030df3182d9c9982580203ae853d669e"
+28 verbose lastModified Tue, 11 Feb 2020 10:18:15 GMT
+29 http request GET https://registry.npmjs.org/webpack
+30 http 304 https://registry.npmjs.org/webpack
+31 verbose headers { date: 'Wed, 12 Feb 2020 06:47:26 GMT',
+31 verbose headers   connection: 'keep-alive',
+31 verbose headers   'set-cookie':
+31 verbose headers    [ '__cfduid=d167225f2282ed259e94f7036d1e790611581490046; expires=Fri, 13-Mar-20 06:47:26 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+31 verbose headers   'cf-ray': '563c9c798a0ae326-CCU',
+31 verbose headers   age: '4677',
+31 verbose headers   'cache-control': 'public, max-age=300',
+31 verbose headers   etag: '"030df3182d9c9982580203ae853d669e"',
+31 verbose headers   'last-modified': 'Tue, 11 Feb 2020 10:18:15 GMT',
+31 verbose headers   vary: 'Accept-Encoding',
+31 verbose headers   'cf-cache-status': 'HIT',
+31 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+31 verbose headers   server: 'cloudflare' }
+32 silly get cb [ 304,
+32 silly get   { date: 'Wed, 12 Feb 2020 06:47:26 GMT',
+32 silly get     connection: 'keep-alive',
+32 silly get     'set-cookie':
+32 silly get      [ '__cfduid=d167225f2282ed259e94f7036d1e790611581490046; expires=Fri, 13-Mar-20 06:47:26 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+32 silly get     'cf-ray': '563c9c798a0ae326-CCU',
+32 silly get     age: '4677',
+32 silly get     'cache-control': 'public, max-age=300',
+32 silly get     etag: '"030df3182d9c9982580203ae853d669e"',
+32 silly get     'last-modified': 'Tue, 11 Feb 2020 10:18:15 GMT',
+32 silly get     vary: 'Accept-Encoding',
+32 silly get     'cf-cache-status': 'HIT',
+32 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+32 silly get     server: 'cloudflare' } ]
+33 verbose etag https://registry.npmjs.org/webpack from cache
+34 verbose get saving webpack to /home/ada-295/.npm/registry.npmjs.org/webpack/.cache.json
+35 http 404 https://registry.npmjs.org/webpack-cli.
+36 verbose headers { date: 'Wed, 12 Feb 2020 06:47:28 GMT',
+36 verbose headers   'content-type': 'application/json',
+36 verbose headers   'content-length': '21',
+36 verbose headers   connection: 'keep-alive',
+36 verbose headers   'set-cookie':
+36 verbose headers    [ '__cfduid=d3104861cb1d3939d7bb4fca69ccd17061581490047; expires=Fri, 13-Mar-20 06:47:27 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+36 verbose headers   'cf-ray': '563c9c79ccebe2fe-CCU',
+36 verbose headers   vary: 'Accept-Encoding',
+36 verbose headers   'cf-cache-status': 'EXPIRED',
+36 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+36 verbose headers   server: 'cloudflare' }
+37 silly get cb [ 404,
+37 silly get   { date: 'Wed, 12 Feb 2020 06:47:28 GMT',
+37 silly get     'content-type': 'application/json',
+37 silly get     'content-length': '21',
+37 silly get     connection: 'keep-alive',
+37 silly get     'set-cookie':
+37 silly get      [ '__cfduid=d3104861cb1d3939d7bb4fca69ccd17061581490047; expires=Fri, 13-Mar-20 06:47:27 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+37 silly get     'cf-ray': '563c9c79ccebe2fe-CCU',
+37 silly get     vary: 'Accept-Encoding',
+37 silly get     'cf-cache-status': 'EXPIRED',
+37 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+37 silly get     server: 'cloudflare' } ]
+38 silly fetchPackageMetaData Error: Not found : webpack-cli.
+38 silly fetchPackageMetaData     at makeError (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+38 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:252:14)
+38 silly fetchPackageMetaData     at Request._callback (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+38 silly fetchPackageMetaData     at Request.self.callback (/usr/share/npm/node_modules/request/request.js:198:22)
+38 silly fetchPackageMetaData     at emitTwo (events.js:126:13)
+38 silly fetchPackageMetaData     at Request.emit (events.js:214:7)
+38 silly fetchPackageMetaData     at Request.<anonymous> (/usr/share/npm/node_modules/request/request.js:1082:10)
+38 silly fetchPackageMetaData     at emitOne (events.js:121:20)
+38 silly fetchPackageMetaData     at Request.emit (events.js:211:7)
+38 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (/usr/share/npm/node_modules/request/request.js:1009:12)
+38 silly fetchPackageMetaData  error for webpack-cli. { Error: Not found : webpack-cli.
+38 silly fetchPackageMetaData     at makeError (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+38 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:252:14)
+38 silly fetchPackageMetaData     at Request._callback (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+38 silly fetchPackageMetaData     at Request.self.callback (/usr/share/npm/node_modules/request/request.js:198:22)
+38 silly fetchPackageMetaData     at emitTwo (events.js:126:13)
+38 silly fetchPackageMetaData     at Request.emit (events.js:214:7)
+38 silly fetchPackageMetaData     at Request.<anonymous> (/usr/share/npm/node_modules/request/request.js:1082:10)
+38 silly fetchPackageMetaData     at emitOne (events.js:121:20)
+38 silly fetchPackageMetaData     at Request.emit (events.js:211:7)
+38 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (/usr/share/npm/node_modules/request/request.js:1009:12) pkgid: 'webpack-cli.', statusCode: 404, code: 'E404' }
+39 silly rollbackFailedOptional Starting
+40 silly rollbackFailedOptional Finishing
+41 silly runTopLevelLifecycles Starting
+42 silly runTopLevelLifecycles Finishing
+43 silly install printInstalled
+44 verbose stack Error: Not found : webpack-cli.
+44 verbose stack     at makeError (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+44 verbose stack     at CachingRegistryClient.<anonymous> (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:252:14)
+44 verbose stack     at Request._callback (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+44 verbose stack     at Request.self.callback (/usr/share/npm/node_modules/request/request.js:198:22)
+44 verbose stack     at emitTwo (events.js:126:13)
+44 verbose stack     at Request.emit (events.js:214:7)
+44 verbose stack     at Request.<anonymous> (/usr/share/npm/node_modules/request/request.js:1082:10)
+44 verbose stack     at emitOne (events.js:121:20)
+44 verbose stack     at Request.emit (events.js:211:7)
+44 verbose stack     at IncomingMessage.<anonymous> (/usr/share/npm/node_modules/request/request.js:1009:12)
+45 verbose statusCode 404
+46 verbose pkgid webpack-cli.
+47 verbose cwd /home/ada-295/webpackdemo
+48 error Linux 5.3.0-26-generic
+49 error argv "/usr/bin/node" "/usr/bin/npm" "i" "--save-dev" "webpack" "webpack-cli."
+50 error node v8.10.0
+51 error npm  v3.5.2
+52 error code E404
+53 error 404 Not found : webpack-cli.
+54 error 404
+55 error 404 'webpack-cli.' is not in the npm registry.
+56 error 404 You should bug the author to publish it (or use the name yourself!)
+57 error 404 Note that you can also install from a
+58 error 404 tarball, folder, http url, or git url.
+59 verbose exit [ 1, true ]
